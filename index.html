@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dad Jokes</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="controls">
+        <button class="btn">Get Another Joke</button>
+        <select id="langSelect" class="lang-select">
+          <option value="en">English</option>
+          <option value="id">Indonesia</option>
+          <option value="es">Español</option>
+          <option value="fr">Français</option>
+          <option value="de">Deutsch</option>
+          <option value="it">Italiano</option>
+        </select>
+        <button class="btn translate-btn">Translate</button>
+      </div>
+      <p class="result">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem
+        unde quibusdam quia ex asperiores consectetur quis maxime corporis
+        suscipit expedita.
+      </p>
+      <button class="secret-btn">🤔</button>
+      <div class="jumpscare" id="jumpscare">
+        <img src="./images/pian.jpg" alt="jumpscare">
+      </div>
+      <audio id="scarySound">
+        <source src="https://www.myinstants.com/media/sounds/dramatic.mp3" type="audio/mpeg">
+        <!-- atau gunakan file lokal -->
+        <!-- <source src="./sounds/dramatic.mp3" type="audio/mpeg"> -->
+      </audio>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
